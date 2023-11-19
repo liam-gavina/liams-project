@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { PageHeader } from "../../components/header/PageHeader"
 import { getLlamas } from "@/lib/firebase/getLlamas";
  
-function Card({id, name, age, gender, description, color, height, weight, origin_country, origin_city, price, spayed_or_neutered,  }) {
+function Card({id, name, age, gender, description, color, height, weight, origin_country, origin_city, price, spayed_or_neutered, birthdate }) {
   return (
     <aside>
       <h2>{name}</h2>
@@ -16,7 +16,7 @@ function Card({id, name, age, gender, description, color, height, weight, origin
       <p>Origin:{origin_city}, {origin_country}</p>
       <p>Price:${price}</p>
       <p>Is the llama spayed/neutered:{spayed_or_neutered}</p>
-      <Link href={`/employee/${id}`}>{name} using id: {id}</Link>
+      <Link href={`/llama/${id}`}>{name} using id: {id}</Link>
     </aside>
   )
 }

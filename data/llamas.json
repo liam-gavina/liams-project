@@ -2,6 +2,7 @@
     "llamas": {
          "hilarius": {
           "id": 1,
+          "avatar": "https://pixabay.com/photos/alpaca-brown-hairstyle-lama-camel-5202246/",
           "name": "Hilarius",
           "age": 15,
           "gender": "female",
