@@ -2,7 +2,7 @@
     "llamas": {
          "hilarius": {
           "id": 1,
-          "avatar": "https://pixabay.com/photos/alpaca-brown-hairstyle-lama-camel-5202246/",
+          "avatar": "/public/llama-brown.jpg",
           "name": "Hilarius",
           "age": 15,
           "gender": "female",
@@ -18,6 +18,7 @@
         },
          "ilario": {
             "id": 2,
+            "avatar": "/public/llama-white.jpg",
             "name": "Ilario",
             "age": 5,
             "gender": "male",
@@ -33,6 +34,7 @@
         },
          "vonnie":{
             "id": 3,
+            "avatar": "/public/llama-white.jpg",
             "name": "Vonnie",
             "age": 8,
             "gender": "male",
@@ -48,6 +50,7 @@
         },
          "gherardo":{
             "id": 4,
+            "avatar": "/public/llama-brown.jpg",
             "name": "Gherardo",
             "age": 18,
             "gender": "male",
@@ -63,6 +66,7 @@
         },
          "mathew":{
             "id": 5,
+            "avatar": "/public/llama-black.jpg",
             "name": "Mathew",
             "age": 11,
             "gender": "female",
@@ -78,6 +82,7 @@
         },
          "lulita":{
             "id": 6,
+            "avatar": "/public/llama-brown.jpg",
           "name": "Lulita",
           "age": 10,
           "gender": "female",
@@ -92,6 +97,7 @@
           "spayed_or_neutered": "yes"
         },
          "harvey":{
+          "avatar": "/public/llama-white.jpg",
             "id": 7,
           "name": "Harvey",
           "age": 17,
@@ -107,6 +113,7 @@
           "spayed_or_neutered": "no"
         },
          "jeanna":{
+          "avatar": "/public/llama-brown.jpg",
           "id": 8,
           "name": "Jeanna",
           "age": 2,
@@ -122,6 +129,7 @@
           "spayed_or_neutered": "yes"
         },
          "blaine":{
+          "avatar": "/public/llama-brown.jpg",
             "id": 9,
           "name": "Blaine",
           "age": 2,
@@ -137,6 +145,7 @@
           "spayed_or_neutered": "yes"
         },
          "corette":{
+          "avatar": "/public/llama-white.jpg",
             "id": 10,
             "name": "Corette",
             "age": 10,
@@ -152,6 +161,7 @@
             "spayed_or_neutered": "yes"
           },
          "stacey":{
+          "avatar": "/public/llama-brown.jpg",
             "id": 11,
             "name": "Stacey",
             "age": 5,
@@ -167,6 +177,7 @@
             "spayed_or_neutered": "yes"
         },
          "felike":{
+          "avatar": "/public/llama-brown.jpg",
             "id": 12,
           "name": "Felike",
           "age": 19,
@@ -180,186 +191,7 @@
           "origin_city": "Moscow",
           "price": 1842.74,
           "spayed_or_neutered": "no"
-        },
-         "humberto":{
-          "id": 13,
-          "name": "Humberto",
-          "age": 19,
-          "gender": "male",
-          "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
-          "color": "black",
-          "height": 87.43,
-          "weight": 162.64,
-          "birthdate": "1/23/2013",
-          "origin_country": "Brazil",
-          "origin_city": "Ibirité",
-          "price": 7208.26,
-          "spayed_or_neutered": "no"
-        },
-         "dulciana":{
-          "id": 14,
-          "name": "Dulciana",
-          "age": 12,
-          "gender": "male",
-          "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
-          "color": "black",
-          "height": 62.77,
-          "weight": 492.39,
-          "birthdate": "6/3/2011",
-          "origin_country": "Liechtenstein",
-          "origin_city": "Schellenberg",
-          "price": 1259.76,
-          "spayed_or_neutered": "no"
-        },
-         "rutherford":{
-            "id": 15,
-          "name": "Rutherford",
-          "age": 2,
-          "gender": "male",
-          "description": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
-          "color": "brown",
-          "height": 132.43,
-          "weight": 199.26,
-          "birthdate": "12/22/2015",
-          "origin_country": "Bosnia and Herzegovina",
-          "origin_city": "Jelah",
-          "price": 540.51,
-          "spayed_or_neutered": "yes"
-        },
-         "waylen":{
-            "id": 16,
-          "name": "Waylen",
-          "age": 8,
-          "gender": "male",
-          "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
-          "color": "white",
-          "height": 81.52,
-          "weight": 497.59,
-          "birthdate": "5/14/2020",
-          "origin_country": "Lithuania",
-          "origin_city": "Varėna",
-          "price": 926.02,
-          "spayed_or_neutered": "no"
-        },
-         "timmy":{
-            "id": 17,
-          "name": "Timmy",
-          "age": 17,
-          "gender": "female",
-          "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
-          "color": "white",
-          "height": 103.69,
-          "weight": 315.78,
-          "birthdate": "3/30/2019",
-          "origin_country": "Russia",
-          "origin_city": "Bezhta",
-          "price": 3423.82,
-          "spayed_or_neutered": "no"
-        },
-         "roxane":{
-            "id": 18,
-            "name": "Roxane",
-            "age": 2,
-            "gender": "female",
-            "description": "In congue. Etiam justo. Etiam pretium iaculis justo.\n\nIn hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
-            "color": "brown",
-            "height": 55.29,
-            "weight": 429.94,
-            "birthdate": "4/5/2021",
-            "origin_country": "China",
-            "origin_city": "Huwei",
-            "price": 8148.07,
-            "spayed_or_neutered": "yes"
-        },
-         "elke":{
-            "id": 19,
-          "name": "Elke",
-          "age": 2,
-          "gender": "female",
-          "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
-          "color": "black",
-          "height": 90.25,
-          "weight": 112.36,
-          "birthdate": "4/24/2022",
-          "origin_country": "Kenya",
-          "origin_city": "Bungoma",
-          "price": 8462.45,
-          "spayed_or_neutered": "no"
-        },
-         "davis":{
-            "id": 20,
-            "name": "Davis",
-            "age": 11,
-            "gender": "female",
-            "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.\n\nSed ante. Vivamus tortor. Duis mattis egestas metus.\n\nAenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
-            "color": "brown",
-            "height": 94.58,
-            "weight": 350.96,
-            "birthdate": "10/1/2012",
-            "origin_country": "Philippines",
-            "origin_city": "Balibagan Oeste",
-            "price": 1234.57,
-            "spayed_or_neutered": "no"
-        },
-         "dorie":{
-            "id": 21,
-            "name": "Dorie",
-            "age": 2,
-            "gender": "male",
-            "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-            "color": "white",
-            "height": 84.31,
-            "weight": 340.38,
-            "birthdate": "2/24/2010",
-            "origin_country": "Sweden",
-            "origin_city": "Kungshamn",
-            "price": 9425.03,
-            "spayed_or_neutered": "yes"
-        },
-         "wildon":{
-            "id": 22,
-            "name": "Wildon",
-            "age": 20,
-            "gender": "male",
-            "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
-            "color": "black",
-            "height": 99.49,
-            "weight": 449.18,
-            "birthdate": "3/5/2015",
-            "origin_country": "Cuba",
-            "origin_city": "La Habana Vieja",
-            "price": 1614.46,
-            "spayed_or_neutered": "yes"
-        },
-         "lauraine":{
-                "id": 23,
-                "name": "Lauraine",
-                "age": 8,
-                "gender": "female",
-                "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
-                "color": "white",
-                "height": 106.32,
-                "weight": 332.87,
-                "birthdate": "6/22/2017",
-                "origin_country": "Albania",
-                "origin_city": "Lazarat",
-                "price": 4810.69,
-                "spayed_or_neutered": "yes"
-        },
-         "lonnie":{
-            "id": 24,
-            "name": "Lonnie",
-            "age": 13,
-            "gender": "female",
-            "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
-            "color": "black",
-            "height": 136.45,
-            "weight": 271.73,
-            "birthdate": "4/6/2018",
-            "origin_country": "Colombia",
-            "origin_city": "Nocaima",
-            "price": 3129.92,
-            "spayed_or_neutered": "no"
-          }
+        }
+        
     }
 }

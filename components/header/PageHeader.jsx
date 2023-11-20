@@ -1,8 +1,8 @@
  function PageHeader ( {title, tagline}){
     return (
-        <header className="text-center pt-16">
-            <h1 className="text-5xl text-slate-600">{title || "Page Title"}</h1>
-            <p>{tagline || "Page Tagline"}</p>
+        <header className="px-3 pt-16 text-center">
+            <h1 className="text-2xl font-bold md:text-5xl text-slate-900">{title || "Page Title"}</h1>
+            <p class="text-xl md:text-2xl pt-4">{tagline || "Page Tagline"}</p>
         </header>
 
  

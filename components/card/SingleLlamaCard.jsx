@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-
+import { PageHeader } from "../../components/header/PageHeader"
+import { getLlamas } from "@/lib/firebase/getLlamas";
 function SingleLlamaCard ({id, name, age, gender, description, color, height, weight, origin_country, origin_city, price, spayed_or_neutered, birthdate }){
     return (
-           <aside>
+           <aside class="">
             <h2>{name}</h2>
             <Image
-             src={`/${avatar}`}
+             src={avatar}
              width={400}
              height={400}
              alt={name}
@@ -15,10 +16,11 @@ function SingleLlamaCard ({id, name, age, gender, description, color, height, we
             <p>DOB:{birthdate} (Aged{age})</p>
             <p>Llama ID:{id}</p>
             <p>Sex:{gender}</p>
-            <p>Description:{description}</p>
-            <p>Color:{color}</p>
             <p>Height:{height}"</p>
+            <p>Color:{color}</p>
             <p>Weight{weight} lbs</p>
+            <p>Description:{description}</p>
+            
             <p>Origin:{origin_city}, {origin_country}</p>
             <p>Price:${price}</p>
             <p>Is the llama spayed/neutered:{spayed_or_neutered}</p>

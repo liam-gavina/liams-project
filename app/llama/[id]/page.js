@@ -1,4 +1,5 @@
 import { getLlamas } from "@/lib/firebase/getLlamas";
+import { SingleLlamaCard } from "@/components/card/SingleLlamaCard";
 
 async function getLlama(uid) {
     const payload = await getLlamas()
@@ -16,7 +17,8 @@ async function LlamaPage ({params}) {
           <h2 className="text-5xl text-slate-900">Llama Page ID: {uid} </h2>
         </header>
         <main className="min-h-screen py-24 ">
-
+        <SingleLlamaCard/>
+          
         </main>
 
       </>
