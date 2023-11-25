@@ -1,4 +1,4 @@
-import { db } from "@/lib/firebase/firebaseConfig"
+import { db } from "@lib/firebase/firebaseConfig"
 async function GET (req, {params}) {
 
     const dbRef = await db.ref('/llamas')
