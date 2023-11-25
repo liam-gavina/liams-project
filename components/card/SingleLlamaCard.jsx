@@ -5,7 +5,7 @@ import { PageHeader } from "../../components/header/PageHeader"
 import { getLlamas } from "@/lib/firebase/getLlamas";
 function SingleLlamaCard ({id, name, age, gender, description, color, height, weight, origin_country, origin_city, price, spayed_or_neutered, birthdate }){
     return (
-           <aside class="">
+           <aside className="">
             <h2>{name}</h2>
             <Image
              src={avatar}
