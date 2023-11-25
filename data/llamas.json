@@ -2,7 +2,7 @@
     "llamas": {
          "hilarius": {
           "id": 1,
-          "avatar": "/public/llama-brown.jpg",
+          "avatar":  "/llama-brown.jpg",
           "name": "Hilarius",
           "age": 15,
           "gender": "female",
@@ -18,7 +18,7 @@
         },
          "ilario": {
             "id": 2,
-            "avatar": "/public/llama-white.jpg",
+            "avatar":  "/llama-white.jpg",
             "name": "Ilario",
             "age": 5,
             "gender": "male",
@@ -34,7 +34,7 @@
         },
          "vonnie":{
             "id": 3,
-            "avatar": "/public/llama-white.jpg",
+            "avatar":  "/llama-white.jpg",
             "name": "Vonnie",
             "age": 8,
             "gender": "male",
@@ -50,7 +50,7 @@
         },
          "gherardo":{
             "id": 4,
-            "avatar": "/public/llama-brown.jpg",
+            "avatar":  "/llama-brown.jpg",
             "name": "Gherardo",
             "age": 18,
             "gender": "male",
@@ -66,7 +66,7 @@
         },
          "mathew":{
             "id": 5,
-            "avatar": "/public/llama-black.jpg",
+            "avatar":  "/llama-black.jpg",
             "name": "Mathew",
             "age": 11,
             "gender": "female",
@@ -82,7 +82,7 @@
         },
          "lulita":{
             "id": 6,
-            "avatar": "/public/llama-brown.jpg",
+            "avatar":  "/llama-brown.jpg",
           "name": "Lulita",
           "age": 10,
           "gender": "female",
@@ -97,7 +97,7 @@
           "spayed_or_neutered": "yes"
         },
          "harvey":{
-          "avatar": "/public/llama-white.jpg",
+          "avatar":  "/llama-white.jpg",
             "id": 7,
           "name": "Harvey",
           "age": 17,
@@ -113,7 +113,7 @@
           "spayed_or_neutered": "no"
         },
          "jeanna":{
-          "avatar": "/public/llama-brown.jpg",
+          "avatar":  "/llama-brown.jpg",
           "id": 8,
           "name": "Jeanna",
           "age": 2,
@@ -129,7 +129,7 @@
           "spayed_or_neutered": "yes"
         },
          "blaine":{
-          "avatar": "/public/llama-brown.jpg",
+          "avatar":  "/llama-brown.jpg",
             "id": 9,
           "name": "Blaine",
           "age": 2,
@@ -145,7 +145,7 @@
           "spayed_or_neutered": "yes"
         },
          "corette":{
-          "avatar": "/public/llama-white.jpg",
+          "avatar":  "/llama-white.jpg",
             "id": 10,
             "name": "Corette",
             "age": 10,
@@ -161,7 +161,7 @@
             "spayed_or_neutered": "yes"
           },
          "stacey":{
-          "avatar": "/public/llama-brown.jpg",
+          "avatar":  "/llama-brown.jpg",
             "id": 11,
             "name": "Stacey",
             "age": 5,
@@ -177,7 +177,7 @@
             "spayed_or_neutered": "yes"
         },
          "felike":{
-          "avatar": "/public/llama-brown.jpg",
+          "avatar":  "/llama-brown.jpg",
             "id": 12,
           "name": "Felike",
           "age": 19,
