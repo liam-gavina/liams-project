@@ -4,7 +4,7 @@ import { getLlamas } from "@/lib/firebase/getLlamas";
 
 
 
-function Card({id, name, age, gender, description, color, height, weight, origin_country, origin_city, price, spayed_or_neutered, birthdate, avatar }) {
+async function Card({id, name, age, gender, description, color, height, weight, origin_country, origin_city, price, spayed_or_neutered, birthdate, avatar }) {
   return (
     <div className="p-10 overflow-hidden rounded shadow-lg min-w-sm">
       <h2 className="text-2xl"> {name}</h2>
