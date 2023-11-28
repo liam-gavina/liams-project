@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import { getLlamas } from "@/lib/firebase/getLlamas";
 import { SingleLlamaCard } from "@/components/card/SingleLlamaCard";
 
@@ -8,13 +10,15 @@ async function getLlama(uid) {
     console.log(singleItem)
 }
 
+
+
 async function LlamaPage ({params}) {
     const uid = params.uid
-    const llama = await getLlama(uid)
+    const llama = await getLlama(id)
     return (
       <>
         <header className="text-center pt-28">
-          <h2 className="text-5xl text-slate-900">Llama Page ID: {uid} </h2>
+          <h2 className="text-5xl text-slate-900">Llama Page ID: {llama} </h2>
         </header>
         <main className="min-h-screen py-24 ">
         <SingleLlamaCard/>
