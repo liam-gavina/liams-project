@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { GiPinata } from "react-icons/gi";
 import {IoLogoGithub} from 'react-icons/io5'
- function NavBar ( {children}){
+ function NavBar ( {children}) {
     return (
         <nav className="px-4 py-4">
             <ul className="flex items-center justify-between">

@@ -4,28 +4,23 @@ import { getLlamas } from "@/lib/firebase/getLlamas";
 
 
 
-async function Card({id, name, age, gender, description, color, height, weight, origin_country, origin_city, price, spayed_or_neutered, birthdate, avatar }) {
+async function Card({id, name, description, origin_country, price,  avatar }) {
   return (
     <div className="p-10 overflow-hidden rounded shadow-lg min-w-sm">
-      <h2 className="text-2xl"> {name}</h2>
-      <img
+      <h2 className="pb-4 text-2xl font-bold"> {name}</h2>
+      <img className="w-full"
              src={avatar}
              width="400"
              height="400"
              alt={name}
             />
-      <p className="py-2 text-lg"><span className="font-bold">DOB:</span> {birthdate}</p>
-      <p className="py-2 text-lg"><span className="font-bold">Age:</span> {age}</p>
-      <p className="py-2 text-lg"><span className="font-bold">Sex:</span> {gender}</p>
-      <p className="py-2 text-lg"><span className="font-bold">Height:</span> {height} inches</p>
-      <p className="py-2 text-lg"><span className="font-bold">Weight:</span> {weight} lbs</p>
-      <p className="py-2 text-lg"><span className="font-bold">Color:</span> {color}</p>
-      <p className="py-2 text-lg"><span className="font-bold">Description:</span> {description}</p>
-      <p className="py-2 text-lg"><span className="font-bold">City:</span> {origin_city}</p>
-      <p className="py-2 text-lg"><span className="font-bold">Country:</span> {origin_country}</p>
-      <p className="py-2 text-lg"><span className="font-bold">Price:</span> ${price}</p>
-      <p className="pt-2 pb-6 text-lg "><span className="font-bold">Is the llama spayed/neutered: </span>{spayed_or_neutered}</p>
-      <Link href={`/llama/${id}`} className="rounded-md bg-stone-900 px-3.5 py-3  text-lg font-semibold text-white shadow-sm hover:bg-stone-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-600"> View Llama ID: {id}</Link>
+      
+      <p className="pt-4 pb-2 text-lg"><span className="font-bold">Description:</span> {description}</p>
+      <p className="py-2 text-lg"><span className="font-bold">Country of Origin:</span> {origin_country}</p>
+      <p className="pb-4 text-lg d-flex justify-c "><span className="font-bold">Price:</span> ${price}</p>
+      <div className="flex justify-between">
+        <Link href={`/llama/${id}`} className="p-2 text-lg font-semibold text-white rounded-md shadow-sm bg-stone-900 hover:bg-stone-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-600"> View More</Link>
+      </div>
     </div>
   )
 }
