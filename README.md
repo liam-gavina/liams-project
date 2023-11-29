@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Image Sources
+
+https://pixabay.com/photos/llama-white-animal-fur-head-3801453/
+https://pixabay.com/photos/alpaca-camel-furry-animal-wool-4653525/
+https://pixabay.com/photos/alpaca-brown-hairstyle-lama-camel-5202246/
+https://pixabay.com/photos/black-llama-animal-wildlife-wild-331993/
+https://pixabay.com/photos/llama-alpaca-grass-animal-nature-4035741/

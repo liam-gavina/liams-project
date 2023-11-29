@@ -82,7 +82,7 @@
         },
          "lladavid":{
             "id": 6,
-            "avatar":  "/llama-brown.jpg",
+            "avatar":  "/llama-brown-two.jpg",
           "name": "Llavid",
           "age": 13,
           "gender": "Male",
@@ -99,7 +99,7 @@
          "llamarc":{
           "avatar":  "/llama-brown.jpg",
             "id": 7,
-          "name": "LLamarc",
+          "name": "Llamarc",
           "age": 14,
           "gender": "Male",
           "description": "Llamarc is said to be highly intelligent, as well as quiet and reserved. Enjoys observing objects, other animals, and people from a distance, and is fascinated by airplanes.",
