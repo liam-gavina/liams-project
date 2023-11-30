@@ -82,7 +82,7 @@
         },
          "lladavid":{
             "id": 6,
-            "avatar":  "/llama-brown-two.jpg",
+            "avatar":  "/llama-brown-four.jpg",
           "name": "Llavid",
           "age": 13,
           "gender": "Male",
@@ -97,7 +97,7 @@
           "spayed_or_neutered": "N/A"
         },
          "llamarc":{
-          "avatar":  "/llama-brown.jpg",
+          "avatar":  "/llama-brown-three.jpg",
             "id": 7,
           "name": "Llamarc",
           "age": 14,
@@ -113,7 +113,7 @@
           "spayed_or_neutered": "N/A"
         },
          "llomeo":{
-          "avatar":  "/llama-brown.jpg",
+          "avatar":  "/llama-brown-five.jpg",
           "id": 8,
           "name": "Llomeo",
           "age": 13,
@@ -145,7 +145,7 @@
           "spayed_or_neutered": "N/A"
         },
          "joe":{
-          "avatar":  "/llama-white.jpg",
+          "avatar":  "/llama-white-two.jpg",
             "id": 10,
             "name": "Joe Llamiden",
             "age": 21,
@@ -177,13 +177,13 @@
             "spayed_or_neutered": "N/A"
         },
          "aoyoma":{
-          "avatar":  "/llama-beige.jpg",
+          "avatar":  "/llama-brown-two.jpg",
             "id": 12,
           "name": "Aoyoma",
           "age": 5,
           "gender": "Female",
           "description": "Aoyama is a rather fierce llama, and tends to stand her ground (as always) in response to perceived threats. Enjoys eating grass, and swimming in ponds. ",
-          "color": "Beige",
+          "color": "Brown",
           "height": 95,
           "weight": 330,
           "birthdate": "2/11/2018",

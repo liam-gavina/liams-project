@@ -42,3 +42,12 @@ https://pixabay.com/photos/alpaca-camel-furry-animal-wool-4653525/
 https://pixabay.com/photos/alpaca-brown-hairstyle-lama-camel-5202246/
 https://pixabay.com/photos/black-llama-animal-wildlife-wild-331993/
 https://pixabay.com/photos/llama-alpaca-grass-animal-nature-4035741/
+https://pixabay.com/photos/alpaca-lama-head-mammal-animal-7830145/
+https://pixabay.com/photos/llama-animal-farm-funny-head-face-1962883/
+https://pixabay.com/photos/mammals-lama-alpaca-portrait-funny-5230710/
+
+https://pixabay.com/photos/llama-portrait-white-travel-per%C3%B9-5235473/
+
+
+
+

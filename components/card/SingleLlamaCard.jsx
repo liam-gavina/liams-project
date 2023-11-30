@@ -2,7 +2,7 @@ function SingleLlamaCard ( { name, age, gender, description, color, height, weig
        return (
            <>
             <div>
-        <h2 className="pb-2 text-2xl"> {name}</h2>
+        <h2 className="pb-4 text-2xl font-bold"> {name}</h2>
         <img
              src={avatar}
              width="400"
@@ -21,7 +21,7 @@ function SingleLlamaCard ( { name, age, gender, description, color, height, weig
         <p className="py-2 text-lg"><span className="font-bold">Price:</span> ${price}</p>
         <p className="pt-2 pb-6 text-lg "><span className="font-bold">Is the llama spayed/neutered: </span>{spayed_or_neutered}</p>
         </div>
-        <a href={`/llamas`} className="rounded-md bg-stone-900 px-3.5 py-3  text-lg font-semibold text-white shadow-sm hover:bg-stone-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-600"> Back to Llama Catalog</a>
+        <a href={`/llamas`} className="p-4 text-xl font-semibold text-white rounded-md shadow-sm bg-gradient-to-l hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-400 from-red-500 to-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"> Back to Llama Catalog</a>
         
         </>
        )

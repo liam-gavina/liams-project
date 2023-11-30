@@ -8,18 +8,16 @@ async function Card({id, name, description, origin_country, price,  avatar }) {
   return (
     <div className="p-10 overflow-hidden rounded shadow-lg min-w-sm">
       <h2 className="pb-4 text-2xl font-bold"> {name}</h2>
-      <img className="w-full"
+      <img className="flex justify-center h-auto max-w-full rounded-lg"
              src={avatar}
-             width="400"
-             height="400"
              alt={name}
             />
       
       <p className="pt-4 pb-2 text-lg"><span className="font-bold">Description:</span> {description}</p>
       <p className="py-2 text-lg"><span className="font-bold">Country of Origin:</span> {origin_country}</p>
       <p className="pb-4 text-lg d-flex justify-c "><span className="font-bold">Price:</span> ${price}</p>
-      <div className="flex justify-between">
-        <Link href={`/llama/${id}`} className="p-2 text-lg font-semibold text-white rounded-md shadow-sm bg-stone-900 hover:bg-stone-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-600"> View More</Link>
+      <div className="flex justify-center">
+        <Link href={`/llama/${id}`} className="p-4 text-xl font-semibold text-white rounded-md shadow-sm bg-gradient-to-l hover:bg-gradient-to-r hover:from-yellow-300 hover:to-orange-400 from-red-500 to-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"> View More</Link>
       </div>
     </div>
   )
@@ -33,9 +31,11 @@ async function Card({id, name, description, origin_country, price,  avatar }) {
 
    return(
     <>
+    
     <PageHeader title="Llamaste Store Catalog" tagline="Want some drama or something to show off to your mama? Buy a llama!"/>
     
-   <Link href="/" className="text-lg font-semibold shadow-sm text-slate hover:text-red-500"> &larr; Back to Homepage</Link>
+   <div className="container flex flex-col items-center min-w-full px-20 pt-10 mx-0 p"><Link href="/" className="p-5 text-lg font-semibold text-center text-white rounded-md shadow-sm bg-gradient-to-l hover:bg-gradient-to-r hover:from-yellow-300 hover:to-orange-400 from-red-500 to-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"> &larr; Back to Homepage</Link></div>
+   
     <main className="min-h-screen py-24 ">
     
     
