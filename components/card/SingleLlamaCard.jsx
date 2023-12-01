@@ -28,6 +28,7 @@ function SingleLlamaCard ( { name, age, gender, description, color, height, weig
         </div>
         </div>
         
+        
         </>
        )
     }
