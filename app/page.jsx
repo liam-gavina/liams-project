@@ -52,7 +52,7 @@ export default function Home() {
         
       </p>
 
-      <a className="p-4 text-sm font-semibold text-white transition duration-150 ease-in-out border-b-4 border-orange-300 rounded-full shadow-sm md:text-xl md:ml-2 lg:ml-48 hover:text-black h-min bg-gradient-to-l hover:bg-gradient-to-r hover:from-yellow-300 hover:to-orange-400 from-red-500 to-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-600 hover:border-orange-700" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Catch a llama today!</a>
+      <a className="p-4 text-sm font-semibold text-white transition duration-150 ease-in-out border-b-4 border-orange-300 rounded-full shadow-sm md:text-xl md:ml-2 lg:ml-48 hover:text-black h-min bg-gradient-to-l hover:bg-gradient-to-r hover:from-yellow-300 hover:to-orange-400 from-red-500 to-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-stone-600 hover:border-orange-700" href="https://www.youtube.com/watch?v=p7YXXieghto&t=193s">Catch a llama today!</a>
       
     </div>
     
