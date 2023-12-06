@@ -14,7 +14,7 @@
     return (
         <form action='/api/checkout' method="POST" >
             <input type="hidden" name="id" value="from dashboard"  />
-            <input type="hidden" name="price" value="price-10something" />
+            <input type="hidden" name="price" value="priceId" />
             <button type="submit" id="checkout-button">Checkout</button>
         </form>
     )

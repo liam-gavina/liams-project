@@ -1,3 +1,4 @@
+
 import { CheckoutForm } from "../CheckoutForm"
 
 function SingleLlamaCard ( { name, age, gender, description, color, height, weight, origin_country, origin_city, price, spayed_or_neutered, birthdate, avatar }) {

@@ -1,3 +1,7 @@
+"use client";
+
+import { createCheckoutSession } from "@/app/actions/stripe";
+
 function BuyNow({priceId }) {
     return (
     <form
