@@ -59,7 +59,7 @@ export default function Home() {
   </div>
   
   <div
-    className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-10">
+    className="mr-4 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-10">
     <div className="p-6 ">
       <h5
         className="mb-2 text-xl font-medium leading-tight text-orange-800 lg:text-2xl dark:text-orange-50">
@@ -96,9 +96,11 @@ export default function Home() {
 </div>
       </div>
     </div>
-    <p className="justify-center font-bold lg:text-lg ">@2023 Copyright Llamaste All Rights Reserved
-    </p>
-    <p className="">Note: This is an educational exercise! All resemblence to actual or fictional  llamas, and real or fictional individuals, is purely coincidental. I have never sold a llama in my life. Please don't sue me. I just love llamas.</p>
+    <div>
+      <p className="justify-center font-bold text-center lg:text-lg">@2023 Copyright Llamaste All Rights Reserved
+      </p>
+      <p className="p-5 pb-10 text-left">Note: This is an educational exercise! All resemblence to actual or fictional  llamas, and real or fictional individuals, is purely coincidental. I have never sold a llama in my life. Please don't sue me. I just love llamas.</p>
+    </div>
   </div>
      
   
