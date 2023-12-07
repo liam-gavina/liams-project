@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     
-    <main className="flex justify-center h-screen">
+    <main className="flex justify-center mx-auto max-width">
     <div className="px-6 text-center bg-neutral-50 dark:bg-neutral-900 md:px-12 lg:text-left">
     <div className="mx-auto w-100 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
       <div className="grid items-center gap-12 lg:grid-cols-2">
